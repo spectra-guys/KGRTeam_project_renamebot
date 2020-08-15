@@ -1,0 +1,67 @@
+{
+  "name": "Rename Bot By Bot Gram",
+  "description": "Rename the bot as you wish master",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "Rename"
+  ],
+  "repository": "https://github.com/prgofficial/RenameBot-PermTB",
+  "env": {
+    "WEBHOOK": {
+      "description": "This is default never mind",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Get Your Bot Token Here(Copy & Paste)",
+      "value": ""
+    },
+    "CHAT_BASE_TOKEN": {
+      "description": "Your chat base token, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "You will get this were you get api_id",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Your ID as Rose /id (copy & paste)",
+      "value": ""
+    },
+    "BANNED_USERS": {
+      "description": "Banned Unwanted members..",
+      "value": "",
+      "required": false
+    },
+    "CHUNK_SIZE": {
+      "description": "I don't know the use of this so leave it",
+      "value": "128",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
