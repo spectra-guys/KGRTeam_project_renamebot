@@ -1,5 +1,5 @@
 {
-  "name": "Rename Bot By Bot Gram",
+  "name": "Rename Bot By KGRockersmylife",
   "description": "Rename the bot as you wish master",
   "keywords": [
     "telegram",
@@ -8,7 +8,7 @@
     "source",
     "Rename"
   ],
-  "repository": "https://github.com/prgofficial/RenameBot-PermTB",
+  "repository": "https://github.com/spectra-guys/KGRTeam_project_renamebot",
   "env": {
     "WEBHOOK": {
       "description": "This is default never mind",
