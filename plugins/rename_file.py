@@ -81,7 +81,7 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
-            if "MovieMafia2" in the_real_download_location:
+            if "KGRockers","MALAYALAMNEWHDFILMS","TELUGUNEWFILMS","tamilnewfilms","allkannadamoviesavailable","WEBSERIESBYKGRockers","KANNADASHOWS","HdNewHindiFilms" in the_real_download_location:
                 await bot.edit_message_text(
                     text=Translation.RENAME_403_ERR,
                     chat_id=update.chat.id,
